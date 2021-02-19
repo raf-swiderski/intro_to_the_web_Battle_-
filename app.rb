@@ -6,4 +6,9 @@ class Battle < Sinatra::Base
     'Hello Battle!'
    end
 
+   get '/local' do
+    'Helloooooo!'
+   end
+
+
 end
